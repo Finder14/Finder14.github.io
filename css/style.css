@@ -6,6 +6,7 @@
 body {
   background-color: #eeeeee;
   font-family: "Gelasio", serif;
+  background: url("../img/back.jpg");
 }
 
 .padre {
@@ -20,6 +21,7 @@ body {
 .title {
   font-size: 40px;
   height: 10px;
+  margin: 0 auto;
 }
 .parrafo {
   font-size: 20px;
@@ -65,21 +67,25 @@ a {
   padding: 0 10px;
   letter-spacing: 2px;
   font-family: "Arimo", sans-serif;
+  margin: 0 auto;
 }
 .nav a:hover {
   color: #343434;
+  margin: 0 auto;
 }
 .social {
   flex: 1 1 auto;
 }
 .nav {
   flex: 5 auto;
+  margin: 0 auto;
 }
 .textoPrincipal {
   /*  background-color: #9a1f40;*/
   height: 500px;
   display: flex;
   align-items: center;
+  margin: 0 auto;
 }
 h1 {
   font-family: "DM Mono", monospace;
@@ -245,23 +251,12 @@ svg {
 
 /**************** NOTICIA ****************/
 .picture {
-  background-color: #f9f9f9;
-  border: 1px solid #cccccc;
-  padding: 3px;
-  font: 11px/1.4em Arial, sans-serif;
-}
-.picture img {
-  border: 1px solid #cccccc;
-  vertical-align: middle;
-  margin-bottom: 3px;
-}
-.right {
-  margin: 0.5em 0pt 0.5em 0.8em;
-  float: right;
-}
-.left {
-  margin: 0.5em 0.8em 0.5em 0;
-  float: left;
+  border: 1px solid #555;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin: 10px;
+
 }
 
 /************** CONTACTO ***************/
