@@ -25,6 +25,7 @@ body {
   padding: 100px;
   font-family: "Rubik", sans-serif;
   justify-content: space-between;
+  background: url("../img/back.jpg");
 }
 a {
   text-decoration: none;
